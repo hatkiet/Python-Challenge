@@ -1,6 +1,6 @@
 I completed two Python challenges named PyBank and PyPoll, using the concepts and knowledge from lectures and activities in Module 3 of UPENN Data Science Bootcamp. For this project, I created a new repository called "Python-Challenge". Inside each folder, there is a Python scripting file named "main.py" to run each analysis, along with two sub-folders named Resources (which contain the Data CSV file) and Analysis (which contain the outcomes). 
 
-I collaborated with my colleague in the study group, and I also used certain parts of code from this repository https://github.com/svafaeva93/python-challenge/tree/main to develop my algorithm and codes. Finally, I sought assistance from ChatGPT to make my code more descriptive and easier to understand.
+I collaborated with my colleague in the study group, Victoria Martin-Nelson, Victoria Ro, Jordan Maywille, Michael Pointek, Michael Nurthen, Chau Nguyen, Katie, Julius Bzozowki, Kyle Taveira, Mia Hursh and I also used certain parts of code from this repository https://github.com/svafaeva93/python-challenge/tree/main to develop my algorithm and codes. Finally, I sought assistance from ChatGPT to make my code more descriptive and easier to understand.
 
 #------------------------------------------------------------------
 A.	PyBank - Algorithm:
