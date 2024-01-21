@@ -1,8 +1,8 @@
 I completed two Python challenges named PyBank and PyPoll, using the concepts and knowledge from lectures and activities in Module 3 of UPENN Data Science Bootcamp. For this project, I created a new repository called "Python-Challenge". Inside each folder, there is a Python scripting file named "main.py" to run each analysis, along with two sub-folders named Resources (which contain the Data CSV file) and Analysis (which contain the outcomes). 
+I collaborated with my colleague in the study group, and I also used certain parts of code from this repository https://github.com/svafaeva93/python-challenge/tree/main to develop my algorithm and codes. Finally, I sought assistance from ChatGPT to make my code more descriptive and easier to understand.
 
-I collaborated with my colleague in the study group, Victoria Martin-Nelson, Victoria Ro, Jordan Maywille, Michael Pointek, Michael Nurthen, Chau Nguyen, Katie, Julius Bzozowki, Kyle Taveira, Mia Hursh and I also used certain parts of code from this repository https://github.com/svafaeva93/python-challenge/tree/main to develop my algorithm and codes. Finally, I sought assistance from ChatGPT to make my code more descriptive and easier to understand.
+Note for resubmission: I have modified the way of reading the CSV file by using the OS library instead of hardcoding the complete path. This was done as per the suggestion of the grader and Jake Byford. I highly appreciate their help!
 
-#------------------------------------------------------------------
 A.	PyBank - Algorithm:
 Step 1: Import modules for operating system and reading CSV file, by using “import os, import csv”
 Step 2: Locate the Data CSV file by providing the csv_path either by csv_path = “/User/...” or csv_path = os.path.join(‘/User/…’)
@@ -17,8 +17,6 @@ Step 3.5: Find max increase and max decrease in profits/loses
 Step 3.6: Generate the summary table
 Step 3.7: Write the summary table into an output file
 Step 4: Call the function analyze_budget_data() to analyze the budget
-
-# -------------------------------------------------------------------
 B.	PyPoll Algorithm: 
 Step 1: Import modules for operating system and reading CSV file, by using “import os, import csv”
 Step 2: Locate the Data CSV file by providing the csv_path either by csv_path = “/User/...” or csv_path = os.path.join(‘/User/…’)
