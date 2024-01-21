@@ -1,7 +1,11 @@
+import os
 import csv
 
 # Locate the CSV file
-csv_path = "/Users/hatkiet/Bootcamp/Module 3 Challenge/Submitted/PyBank/Resources/budget_data.csv"
+csv_path = os.path.join("Resources", "budget_data.csv")
+
+# Output file path
+output_file = os.path.join("Analysis", "result.txt")
 
 # -------- Subroutine to analyze the budget data ------------
 def analyze_budget_data(csv_path):
@@ -16,8 +20,8 @@ def analyze_budget_data(csv_path):
     # Read CSV file
     with open(csv_path, 'r') as csvfile:
         csvreader = csv.reader(csvfile, delimiter=",")
-        next(csvreader)  # Skip the first row of CSV file, often used as the header row
-
+        next(csvreader)
+        
         # Iterate through rows of data after the header
         for row in csvreader:
             Month_Count += 1
@@ -57,9 +61,8 @@ def analyze_budget_data(csv_path):
     #print(Summary_Table)
 
     # Write Summary Table to an output file
-    output_file = "/Users/hatkiet/Bootcamp/Module 3 Challenge/Submitted/PyBank/Analysis/result.txt"
     with open(output_file, "w") as resultfile:
         resultfile.write(Summary_Table)
 
 # Call a function analyze_budget_data() to analyze the budget data
-analyze_budget_data(csv_path)
+analyze_budget_data(csv_path)  
