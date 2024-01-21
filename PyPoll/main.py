@@ -1,7 +1,11 @@
 import os
 import csv
 
-csv_path = "/Users/hatkiet/Bootcamp/Module 3 Challenge/Submitted/PyPoll/Resources/election_data.csv"
+#Locate the CSV file
+csv_path = os.path.join("Resources","election_data.csv")
+
+#Output file path
+output_file = os.path.join("Analysis","result.txt")
 
 # Initialize dictionaries to store candidate's name, number of votes, and percentages
 Candidate_Votes = {}
@@ -36,7 +40,6 @@ with open(csv_path, 'r') as csvfile:
     #print(Winner)
 
     # Write the Summary table to a output file
-    output_file = "/Users/hatkiet/Bootcamp/Module 3 Challenge/Submitted/PyPoll/Analysis/result.txt"
     with open(output_file, "w") as resultfile:
         resultfile.write("\nElection Results\n")
         resultfile.write("\n-------------------------\n")
